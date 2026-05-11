@@ -1,0 +1,17 @@
+C:\Users\ti2\Desktop\BuscadorMoedaInterface.exe
+C:\Users\ti2\Desktop\BuscadorMoedaInterface.dll
+C:\Users\ti2\Desktop\BuscadorMoedaInterface.deps.json
+C:\Users\ti2\Desktop\BuscadorMoedaInterface.runtimeconfig.json
+C:\Users\ti2\Desktop\BuscadorMoedaInterface.pdb
+C:\Users\ti2\Desktop\EPPlus.dll
+C:\Users\ti2\Desktop\EPPlus.Interfaces.dll
+C:\Users\ti2\Desktop\Microsoft.Extensions.Configuration.dll
+C:\Users\ti2\Desktop\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ti2\Desktop\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ti2\Desktop\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\ti2\Desktop\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ti2\Desktop\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ti2\Desktop\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\ti2\Desktop\Microsoft.Extensions.Primitives.dll
+C:\Users\ti2\Desktop\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ti2\Desktop\Newtonsoft.Json.dll

@@ -1,0 +1,3 @@
+C:\Users\ti2\Desktop\BuscadorMoedaInterface.pdb
+C:\Users\ti2\Desktop\BuscadorMoedaInterface.dll.config
+C:\Users\ti2\Desktop\BuscadorMoedaInterface.exe
