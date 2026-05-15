@@ -46,10 +46,10 @@ Histórico completo das cotações
 
 Ideal para:
 
-Relatórios
-Estudos
-Controle financeiro
-Comparativos
+Relatórios,
+Estudos,
+Controle financeiro,
+Comparativos,
 
 
 **Tecnologias Utilizadas:**
