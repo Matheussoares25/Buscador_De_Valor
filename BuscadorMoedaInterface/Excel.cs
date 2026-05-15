@@ -102,7 +102,7 @@ namespace BuscadorMoedaInterface
                     foreach (var item in dados)
                     {
                         sheet.Cells[linhaAtual, 1].Value = moeda;
-                        sheet.Cells[linhaAtual, 2].Value = item[0];
+                        sheet.Cells[linhaAtual, 2].Value = DateTime.Parse(item[0]).ToString("dd/mm/yyyy");
                         sheet.Cells[linhaAtual, 3].Value = decimal.Parse(item[1]);
                         sheet.Cells[linhaAtual, 4].Value = decimal.Parse(item[2]);
 

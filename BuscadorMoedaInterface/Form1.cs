@@ -36,7 +36,7 @@ namespace BuscadorMoedaInterface
             {
                 try
                 {
-                    dataGridView2.Rows.Clear();
+                    
 
 
                     string moeda = "USD";
@@ -84,19 +84,11 @@ namespace BuscadorMoedaInterface
             {
                 try
                 {
-
+                
                 progressBar1.Visible = true;
                 txtProgresso.Visible = true;
                 progressBar1.Value = 15;
-                switch (moeda)
-                    {
-                        case "USD":
-                            atualMoeda.Clear();
-                            atualMoeda.Text = "Dólar"; break;
-                        case "EUR":
-                        atualMoeda.Clear();
-                            atualMoeda.Text += "Euro"; break;
-                    }
+                
 
                
 
@@ -107,7 +99,7 @@ namespace BuscadorMoedaInterface
                     DateTime fim = DateTime.Now;
               
 
-                cotacao.inicio = inicio;
+                    cotacao.inicio = inicio;
                     cotacao.fim = fim;
                     cotacao.moeda = moeda;
 
@@ -125,8 +117,25 @@ namespace BuscadorMoedaInterface
                     {
                         MessageBox.Show("Operação cancelada!");
 
-                        return "canceled";
-                    }
+                    progressBar1.Visible = false;
+                    txtProgresso.Visible = false;
+
+                    return "canceled";
+
+                    
+                }
+
+
+                dataGridView2.Visible = false;
+                switch (moeda)
+                {
+                    case "USD":
+                        atualMoeda.Clear();
+                        atualMoeda.Text = "Dólar"; break;
+                    case "EUR":
+                        atualMoeda.Clear();
+                        atualMoeda.Text += "Euro"; break;
+                }
 
                 progressBar1.Value = 55;
                 var dados = await service.BuscarCotacoes(cotacao);
@@ -138,20 +147,22 @@ namespace BuscadorMoedaInterface
                     }
 
                     dataGridView1.Rows.Clear();
+                    dataGridView2.Rows.Clear();
 
 
-                    foreach (var item in dados.lista)
+                foreach (var item in dados.lista)
                     {
-                        dataGridView1.Rows.Add(item[0], item[1], item[2]);
+                        dataGridView1.Rows.Add(DateTime.Parse(item[0]).ToString("dd/mm/yyyy"), item[1], item[2]);
                     }
 
                 progressBar1.Value = 95;
 
-                dataGridView2.Rows.Add(dados.media);
+                dataGridView2.Rows.Add(decimal.Round(dados.media, 4, MidpointRounding.ToZero));
 
                     limpaTabelas.Enabled = true;
                     botaoSalva.Enabled = true;
                     dataGridView2.Visible = true;
+
                 await Task.Delay(800);
                 progressBar1.Value = 100;
                 progressBar1.Visible = false;
@@ -258,7 +269,8 @@ namespace BuscadorMoedaInterface
             {
                 try
                 {
-                    dataGridView2.Rows.Clear();
+                    
+
 
                     string moeda = "EUR";
                     moedaAtual = "EUR";
@@ -332,6 +344,7 @@ namespace BuscadorMoedaInterface
 
                     dataGridView1.Rows.Clear();
                     dataGridView2.Rows.Clear();
+                    
 
                     atualMoeda.Clear();
 
