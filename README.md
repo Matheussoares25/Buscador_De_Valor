@@ -52,10 +52,16 @@ Controle financeiro
 Comparativos
 
 
-**Tecnologias Utilizadas**
+**Tecnologias Utilizadas:**
+
 C#
+
 Windows Forms
+
 .NET
+
 API Banco Central
+
 JSON
+
 Excel (.xlsx)
