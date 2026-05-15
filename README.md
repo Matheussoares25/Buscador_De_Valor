@@ -6,12 +6,17 @@ Este projeto foi desenvolvido em C# utilizando Windows Forms e consome a API pú
 **O sistema permite:**
 
 ✅ Consultar moedas
+
 ✅ Buscar valores da última semana
+
 ✅ Exibir resultados na interface
+
 ✅ Gerar relatório Excel automaticamente
+
 ✅ Exportar dados das cotações
 
-Funcionalidades
+**Funcionalidades:**
+
 🔎 Consulta de Moedas
 
 
