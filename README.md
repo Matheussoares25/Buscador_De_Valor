@@ -14,6 +14,7 @@ Este projeto foi desenvolvido em C# utilizando Windows Forms e consome a API pú
 ✅ Gerar relatório Excel automaticamente
 
 ✅ Exportar dados das cotações
+-------------------------------------------------------------------------------
 
 **Funcionalidades:**
 
@@ -31,7 +32,7 @@ Histórico da Última Semana
 
 **O usuário pode consultar os valores dos últimos dias úteis da moeda selecionada.**
 
-Exemplo:
+*Exemplo:*
 
 Dólar
 Euro
