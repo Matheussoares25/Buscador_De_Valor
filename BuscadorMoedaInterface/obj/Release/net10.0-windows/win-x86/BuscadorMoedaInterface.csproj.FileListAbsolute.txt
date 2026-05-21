@@ -224,7 +224,6 @@ C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Rele
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\hostfxr.dll
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\hostpolicy.dll
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\mscordaccore.dll
-C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\mscordaccore_x86_x86_10.0.526.15411.dll
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\mscordbi.dll
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\mscorrc.dll
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\msquic.dll
@@ -297,3 +296,4 @@ C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\obj\Rele
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\BuscadorMoedaInterface.dll.config
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\Ookii.Dialogs.WinForms.dll
 C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\obj\Release\net10.0-windows\win-x86\BuscadorMoedaInterface.Properties.Resources.resources
+C:\Users\ti2\source\repos\BuscadorMoedaInterface\BuscadorMoedaInterface\bin\Release\net10.0-windows\win-x86\mscordaccore_x86_x86_10.0.826.23019.dll
