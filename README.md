@@ -65,3 +65,7 @@ API Banco Central
 JSON
 
 Excel (.xlsx)
+
+**Versão Microsoft Visual C++ com suporte**
+
+Visual Studio 2015	-- Visual Studio 2015 (VC++ 14.0)
