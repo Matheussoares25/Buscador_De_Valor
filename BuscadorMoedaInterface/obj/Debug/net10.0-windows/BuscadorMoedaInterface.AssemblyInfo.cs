@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuscadorMoedaInterface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74c5f6addc3b73c9f1fa9df8756446ceb841d757")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba084877f5f9d6e6e068e4f426c0bec30e371ed2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuscadorMoedaInterface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuscadorMoedaInterface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
