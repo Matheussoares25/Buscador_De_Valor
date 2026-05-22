@@ -152,14 +152,17 @@ namespace BuscadorMoedaInterface
 
                 foreach (var item in dados.lista)
                     {
-                        dataGridView1.Rows.Add(DateTime.Parse(item[0]).ToString("dd/mm/yyyy"), item[1], item[2]);
+                        dataGridView1.Rows.Add(DateTime.Parse(item[0]).ToString("dd/MM/yyyy"), item[1], item[2]);
                     }
 
                 progressBar1.Value = 95;
 
-                dataGridView2.Rows.Add(decimal.Round(dados.media, 4, MidpointRounding.ToZero));
+                //Essa versao é a media sem arredondar
+                //dataGridView2.Rows.Add(decimal.Round(dados.media, 4, MidpointRounding.ToZero));
 
-                    limpaTabelas.Enabled = true;
+                dataGridView2.Rows.Add(dados.media.ToString("F4"));
+
+                limpaTabelas.Enabled = true;
                     botaoSalva.Enabled = true;
                     dataGridView2.Visible = true;
 

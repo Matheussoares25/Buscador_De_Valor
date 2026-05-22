@@ -9,16 +9,19 @@ public class CotacaoService
         string moeda = cota.moeda;
 
         //URL DA API BANCO CENTRAL
+        //Minhas variaveis
         string url = $"https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/" +
                      $"CotacaoMoedaPeriodo(moeda='{moeda}',dataInicial='{dataini}',dataFinalCotacao='{datafim}')?&$format=json";
 
         using (HttpClient client = new HttpClient())
         {
             //REQUISIÇÂO GET
+            //Para Api
             var response = await client.GetAsync(url);
 
 
             //TRANSFORMAR EM JSON
+            //Retorno da Api transformado em json
             var json = await response.Content.ReadAsStringAsync();
             var obj = JObject.Parse(json);
 
