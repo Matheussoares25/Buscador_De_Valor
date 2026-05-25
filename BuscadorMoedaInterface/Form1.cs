@@ -82,7 +82,7 @@ namespace BuscadorMoedaInterface
 
             private async Task<string> consultar(string moeda)
             {
-                try
+            try
                 {
                 
                 progressBar1.Visible = true;
@@ -124,16 +124,16 @@ namespace BuscadorMoedaInterface
 
                     
                 }
+                atualMoeda.Clear();
+                atualMoeda.Clear();
 
 
                 dataGridView2.Visible = false;
                 switch (moeda)
                 {
                     case "USD":
-                        atualMoeda.Clear();
                         atualMoeda.Text = "Dólar"; break;
                     case "EUR":
-                        atualMoeda.Clear();
                         atualMoeda.Text += "Euro"; break;
                 }
 
@@ -143,7 +143,10 @@ namespace BuscadorMoedaInterface
                 if (dados.lista == null || dados.lista.Count == 0)
                     {
                         MessageBox.Show("Nenhum dado encontrado!");
-                        return "Notdados";
+                        progressBar1.Value = 100;
+                        progressBar1.Visible = false;
+                        txtProgresso.Visible = false;
+                    return "Notdados";
                     }
 
                     dataGridView1.Rows.Clear();
