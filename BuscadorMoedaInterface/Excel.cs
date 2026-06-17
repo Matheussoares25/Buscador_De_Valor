@@ -59,12 +59,13 @@ namespace BuscadorMoedaInterface
         
         public void ProcessarExcel(List<string[]> dados, string moeda, string caminhoenv)
         {
-            
-
-            string caminho = Path.Combine(caminhoenv,"Cotações.xlsx");
+            //caminho para o executavel automatico
+            string pasta = AppDomain.CurrentDomain.BaseDirectory;
+            string caminho = Path.Combine(caminhoenv,"Cotações.xlsx" ?? pasta);
 
             var fileInfo = new FileInfo(caminho);
             bool arquivoExiste = File.Exists(caminho);
+
 
 
 

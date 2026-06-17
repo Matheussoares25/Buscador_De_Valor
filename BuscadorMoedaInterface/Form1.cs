@@ -161,9 +161,9 @@ namespace BuscadorMoedaInterface
                 progressBar1.Value = 95;
 
                 //Essa versao é a media sem arredondar
-                //dataGridView2.Rows.Add(decimal.Round(dados.media, 4, MidpointRounding.ToZero));
+                dataGridView2.Rows.Add(decimal.Round(dados.media, 4, MidpointRounding.ToZero));
 
-                dataGridView2.Rows.Add(dados.media.ToString("F4"));
+               // dataGridView2.Rows.Add(dados.media.ToString("F4"));
 
                 limpaTabelas.Enabled = true;
                     botaoSalva.Enabled = true;
@@ -357,8 +357,6 @@ namespace BuscadorMoedaInterface
                     limpaTabelas.Enabled = false;
                     dataGridView2.Visible = false;
                     botaoSalva.Enabled = false;
-
-
 
                 }
 

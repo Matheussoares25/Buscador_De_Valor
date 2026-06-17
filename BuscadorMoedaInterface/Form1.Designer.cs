@@ -84,13 +84,12 @@
             dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            dataGridView1.Location = new Point(60, 320);
-            dataGridView1.Margin = new Padding(3, 2, 3, 2);
+            dataGridView1.Location = new Point(69, 427);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.ScrollBars = ScrollBars.None;
-            dataGridView1.Size = new Size(445, 155);
+            dataGridView1.Size = new Size(509, 207);
             dataGridView1.TabIndex = 9;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -142,15 +141,14 @@
             dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
             dataGridView2.DefaultCellStyle = dataGridViewCellStyle6;
             dataGridView2.GridColor = SystemColors.Desktop;
-            dataGridView2.Location = new Point(206, 483);
-            dataGridView2.Margin = new Padding(3, 2, 3, 2);
+            dataGridView2.Location = new Point(235, 644);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RightToLeft = RightToLeft.No;
             dataGridView2.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridView2.RowHeadersVisible = false;
             dataGridView2.RowHeadersWidth = 51;
             dataGridView2.ScrollBars = ScrollBars.None;
-            dataGridView2.Size = new Size(149, 48);
+            dataGridView2.Size = new Size(170, 64);
             dataGridView2.TabIndex = 12;
             dataGridView2.CellContentClick += dataGridView2_CellContentClick;
             // 
@@ -167,10 +165,9 @@
             // 
             btEuro.BackColor = Color.FromArgb(255, 192, 128);
             btEuro.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btEuro.Location = new Point(276, 176);
-            btEuro.Margin = new Padding(3, 2, 3, 2);
+            btEuro.Location = new Point(315, 235);
             btEuro.Name = "btEuro";
-            btEuro.Size = new Size(184, 43);
+            btEuro.Size = new Size(210, 57);
             btEuro.TabIndex = 13;
             btEuro.Text = "Consultar em Euro";
             btEuro.UseVisualStyleBackColor = false;
@@ -183,10 +180,9 @@
             btDolar.FlatAppearance.BorderSize = 100;
             btDolar.FlatAppearance.MouseDownBackColor = Color.Navy;
             btDolar.Font = new Font("Nirmala UI", 11F, FontStyle.Bold);
-            btDolar.Location = new Point(88, 176);
-            btDolar.Margin = new Padding(3, 2, 3, 2);
+            btDolar.Location = new Point(101, 235);
             btDolar.Name = "btDolar";
-            btDolar.Size = new Size(184, 43);
+            btDolar.Size = new Size(210, 57);
             btDolar.TabIndex = 6;
             btDolar.Text = "Consultar em Dólar";
             btDolar.UseVisualStyleBackColor = false;
@@ -196,20 +192,18 @@
             // 
             caminhoSelecionado.BorderStyle = BorderStyle.None;
             caminhoSelecionado.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            caminhoSelecionado.Location = new Point(276, 130);
-            caminhoSelecionado.Margin = new Padding(3, 2, 3, 2);
+            caminhoSelecionado.Location = new Point(315, 173);
             caminhoSelecionado.Name = "caminhoSelecionado";
-            caminhoSelecionado.Size = new Size(230, 16);
+            caminhoSelecionado.Size = new Size(263, 20);
             caminhoSelecionado.TabIndex = 14;
             caminhoSelecionado.TextChanged += caminhoSelecionado_TextChanged;
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(60, 127);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(69, 169);
             button1.Name = "button1";
-            button1.Size = new Size(210, 21);
+            button1.Size = new Size(240, 28);
             button1.TabIndex = 16;
             button1.Text = "Definir Pasta de Destino:";
             button1.UseVisualStyleBackColor = true;
@@ -220,9 +214,9 @@
             txtProgresso.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             txtProgresso.AutoEllipsis = true;
             txtProgresso.AutoSize = true;
-            txtProgresso.Location = new Point(194, 536);
+            txtProgresso.Location = new Point(222, 715);
             txtProgresso.Name = "txtProgresso";
-            txtProgresso.Size = new Size(62, 15);
+            txtProgresso.Size = new Size(77, 20);
             txtProgresso.TabIndex = 17;
             txtProgresso.Text = "Progresso:";
             txtProgresso.Click += label1_Click_2;
@@ -230,10 +224,9 @@
             // limpaTabelas
             // 
             limpaTabelas.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            limpaTabelas.Location = new Point(276, 242);
-            limpaTabelas.Margin = new Padding(3, 2, 3, 2);
+            limpaTabelas.Location = new Point(315, 323);
             limpaTabelas.Name = "limpaTabelas";
-            limpaTabelas.Size = new Size(122, 22);
+            limpaTabelas.Size = new Size(139, 29);
             limpaTabelas.TabIndex = 18;
             limpaTabelas.Text = "Limpar Dados";
             limpaTabelas.UseVisualStyleBackColor = true;
@@ -244,19 +237,17 @@
             progressBar1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             progressBar1.BackColor = SystemColors.ActiveCaptionText;
             progressBar1.ForeColor = Color.FromArgb(128, 255, 128);
-            progressBar1.Location = new Point(271, 541);
-            progressBar1.Margin = new Padding(3, 2, 3, 2);
+            progressBar1.Location = new Point(310, 721);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(122, 10);
+            progressBar1.Size = new Size(139, 13);
             progressBar1.TabIndex = 19;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(194, -72);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(222, -96);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(193, 266);
+            pictureBox1.Size = new Size(221, 355);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 20;
             pictureBox1.TabStop = false;
@@ -265,10 +256,9 @@
             // botaoSalva
             // 
             botaoSalva.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            botaoSalva.Location = new Point(149, 242);
-            botaoSalva.Margin = new Padding(3, 2, 3, 2);
+            botaoSalva.Location = new Point(170, 323);
             botaoSalva.Name = "botaoSalva";
-            botaoSalva.Size = new Size(122, 22);
+            botaoSalva.Size = new Size(139, 29);
             botaoSalva.TabIndex = 21;
             botaoSalva.Text = "Salvar Dados";
             botaoSalva.UseVisualStyleBackColor = true;
@@ -278,10 +268,9 @@
             // 
             atualMoeda.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             atualMoeda.BorderStyle = BorderStyle.None;
-            atualMoeda.Location = new Point(276, 294);
-            atualMoeda.Margin = new Padding(3, 2, 3, 2);
+            atualMoeda.Location = new Point(315, 392);
             atualMoeda.Name = "atualMoeda";
-            atualMoeda.Size = new Size(122, 16);
+            atualMoeda.Size = new Size(139, 20);
             atualMoeda.TabIndex = 22;
             atualMoeda.TextAlign = HorizontalAlignment.Center;
             // 
@@ -290,18 +279,18 @@
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(156, 295);
+            label1.Location = new Point(178, 393);
             label1.Name = "label1";
-            label1.Size = new Size(114, 15);
+            label1.Size = new Size(147, 20);
             label1.TabIndex = 23;
             label1.Text = "Moeda Selecionada:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(564, 582);
+            ClientSize = new Size(645, 776);
             Controls.Add(label1);
             Controls.Add(botaoSalva);
             Controls.Add(progressBar1);
@@ -320,7 +309,6 @@
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
