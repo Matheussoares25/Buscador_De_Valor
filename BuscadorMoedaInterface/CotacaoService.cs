@@ -24,8 +24,6 @@ public class CotacaoService
                 //TRANSFORMAR EM JSON
                 var json = await response.Content.ReadAsStringAsync();
 
-                MessageBox.Show(json);
-
                 var obj = JObject.Parse(json);
 
                 var valores = obj["value"];
