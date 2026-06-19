@@ -23,6 +23,9 @@ public class CotacaoService
 
                 //TRANSFORMAR EM JSON
                 var json = await response.Content.ReadAsStringAsync();
+
+                MessageBox.Show(json);
+
                 var obj = JObject.Parse(json);
 
                 var valores = obj["value"];
@@ -30,9 +33,10 @@ public class CotacaoService
                 var lista = new List<string[]>();
 
 
-                var filtrado = valores
-                 .GroupBy(x => DateTime.Parse(x["dataHoraCotacao"].ToString()).Date)
-                   .Select(g => g.OrderByDescending(x => DateTime.Parse(x["dataHoraCotacao"].ToString())).First())
+                var filtrado = valores.Where(x => x["dataHoraCotacao"] != null && x["dataHoraCotacao"].Type != JTokenType.Null)
+                    .GroupBy(x => DateTime.Parse(x["dataHoraCotacao"].ToString()).Date)
+                    .Select(g => g.OrderByDescending(x =>
+                        DateTime.Parse(x["dataHoraCotacao"].ToString())).First())
                     .ToList();
 
                 decimal soma = 0;
