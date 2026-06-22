@@ -36,6 +36,7 @@ public class CotacaoService
                     DateTime.Parse(x["dataHoraCotacao"].ToString())).First())
                 .ToList();
 
+
             decimal soma = 0;
             int conta = 0;
 
